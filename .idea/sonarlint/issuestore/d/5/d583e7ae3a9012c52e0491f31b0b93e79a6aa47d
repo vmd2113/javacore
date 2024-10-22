@@ -1,0 +1,11 @@
+
+u	java:S116
+"TRename this field "FILE_PATH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ЖўЭ∆щ€€€€8ЈШЪГІ2
+C
+java:S1170
+"!Make this final field static too.(ЖўЭ∆щ€€€€8ЄШЪГІ2
+c
+java:S1075
+"ARefactor your code to get this URI from a customizable parameter.(ЖўЭ∆щ€€€€8≥М≠ГІ2
+G	java:S1069"+Replace this use of System.out by a logger.(ѕз•т8«М≠ГІ2
+G	java:S106E"+Replace this use of System.out by a logger.(згла8ЋМ≠ГІ2

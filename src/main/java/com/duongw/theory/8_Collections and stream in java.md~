@@ -19,8 +19,4 @@
 4) Queue:
    A queue is a collection used to hold elements before processing. Common
    implementations include LinkedList (which can acts as bot the list and queue) and PriorityQueue.
-
-5) Dequeue
-   A dequeue (double ended queue) is a collection supported both as a list and as a queue. Common implementations
-   include ArrayDeque, LinkedList, and PriorityQueue.
-
+5)

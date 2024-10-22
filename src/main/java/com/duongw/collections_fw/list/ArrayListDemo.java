@@ -1,0 +1,98 @@
+package com.duongw.collections_fw.list;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+
+public class ArrayListDemo {
+
+    /**
+     * ArrayList is a part of the Java Collection Framework and is a dynamic array that can resize itself when elements are added or removed. It is similar to arrays, but with the ability to dynamically resize itself. ArrayList is implemented in the java.util package.
+     * <p>
+     * Features
+     * Dynamic Sizing: ArrayList can dynamically resize itself to accommodate more elements.
+     * Random Access: Elements can be accessed using their index, allowing for fast random access.
+     * Generic: ArrayList is a generic class, allowing it to store elements of any data type.
+     * Iterable: Implements the Iterable interface, allowing for easy iteration over its elements.
+     * Automatic Boxing and Unboxing: ArrayList automatically handles the conversion between primitive types and their corresponding wrapper classes.
+     */
+
+    public static void main(String[] args) {
+        ArrayList<Integer> listInteger = new ArrayList<>(); // <Integer>
+
+        List<Character> listCharacter = new ArrayList<>(); // <Character>
+
+        var doubleNums = new ArrayList<Double>();
+
+
+        List<String> myFriendsName = new ArrayList<>();
+
+        myFriendsName.add("Duong");
+        myFriendsName.add("Thi");
+        myFriendsName.add("Hong");
+        myFriendsName.add("Van");
+        myFriendsName.add("Duong");
+
+        System.out.println(myFriendsName);
+
+        String exampleAccessElement = myFriendsName.get(2);
+        System.out.println("exampleAccessElement: " + exampleAccessElement);
+
+        myFriendsName.set(2, "Thanh");
+        System.out.println(myFriendsName);
+
+        myFriendsName.remove(3);
+
+
+        listInteger.add(1);
+        listInteger.add(2);
+        listInteger.add(3);
+        listInteger.add(4);
+        listInteger.add(5);
+        System.out.println(listInteger);
+
+        listInteger.remove(3);
+        System.out.println(listInteger);
+
+        doubleNums.add(1.0);
+        doubleNums.add(2.0);
+        doubleNums.add(3.0);
+        doubleNums.add(4.0);
+        doubleNums.add(5.0);
+        System.out.println(doubleNums);
+
+
+        // Using loop in arraylist
+
+        //using for each
+        for (String name : myFriendsName) {
+            System.out.println(name);
+        }
+
+        // using for loop
+        for (int i = 0; i < myFriendsName.size(); i++) {
+            System.out.println(myFriendsName.get(i));
+        }
+
+        // using iterator
+        Iterator<String> iterator = myFriendsName.iterator();
+        while (iterator.hasNext()) {
+            String name = iterator.next();
+            System.out.println(name);
+        }
+
+        // using listIterator
+        ListIterator<String> listIterator = myFriendsName.listIterator();
+        while (listIterator.hasNext()) {
+            String name = listIterator.next();
+            System.out.println(name);
+        }
+
+        while (listIterator.hasPrevious()) {
+            String name = listIterator.previous();
+            System.out.println(name);
+        }
+
+    }
+}

@@ -1,3 +1,8 @@
 1|Hung|85.0
 2|Nguyen Van B|92.0
 4|Lan|88.5
+5|Nguyen Van D|90.0
+6|Nguyen Van E|90.0
+7|Nguyen Van F|70.0
+8|Nguyen Van G|90.0
+4|Lan|88.5
