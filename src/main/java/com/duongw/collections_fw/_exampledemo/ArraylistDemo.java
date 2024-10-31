@@ -2,7 +2,17 @@ package com.duongw.collections_fw._exampledemo;
 
 import java.util.*;
 
+/**
+ * Demo of the ArrayList class.
+ *
+ * This program demonstrates how to use an ArrayList to store a collection of objects.
+ * It also shows how to use the for-each loop and the iterator to traverse the elements of the ArrayList.
+ *
+ */
 public class ArraylistDemo {
+
+
+
     public static void main(String[] args) {
 
 
@@ -50,7 +60,7 @@ public class ArraylistDemo {
         System.out.println(doubleNums);
 
 
-        // Using loop in arraylist
+        /* Using loop in arraylist*/
 
         //using for each
         for (String name : myFriendsName) {
@@ -82,7 +92,7 @@ public class ArraylistDemo {
         }
 
 
-        // araylist vs array
+        // arraylist vs array
         ArrayList<String> countryNames = new ArrayList<>();
         countryNames.add("India");
         countryNames.add("Canada");
@@ -99,6 +109,7 @@ public class ArraylistDemo {
 
 
         // using diamond operator
+
         ArrayList<Integer> nums = new ArrayList<>();
         List<Character> characters = new ArrayList<>();
         var doubleNums_ = new ArrayList<Double>();

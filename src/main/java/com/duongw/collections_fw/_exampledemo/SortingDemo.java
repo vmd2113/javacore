@@ -8,7 +8,22 @@ import java.util.Comparator;
 import java.util.List;
 
 public class SortingDemo {
+
+    /**
+     * Demo of sorting using collections.sort() and Comparator
+     *
+     * <pre>
+     * 1. Sort list of integers in natural order
+     * 2. Sort list of integers in reverse order
+     * 3. Sort list of strings in natural order
+     * 4. Sort list of strings in reverse order
+     * 5. Sort list of strings using custom comparator, LastCharComparator
+     * </pre>
+     */
+
     public static void main(String[] args) {
+
+
         // sorting using collection sort
         List<Integer> numbers = new ArrayList<>();
 
@@ -20,6 +35,7 @@ public class SortingDemo {
         numbers.add(-67);
         numbers.add(-2);
         numbers.add(0);
+
         System.out.println(numbers);
         Collections.sort(numbers);
         System.out.println(numbers);
@@ -32,6 +48,7 @@ public class SortingDemo {
         countries.add("Japan");
         countries.add("France");
         countries.add("Canada");
+
         System.out.println(countries);
         countries.sort(Comparator.naturalOrder());
         System.out.println(countries);
@@ -44,7 +61,9 @@ public class SortingDemo {
         countries1.add("Japan");
         countries1.add("France");
         countries1.add("Canada");
+
         // countries1.sort(new LastCharComparator());
+
         Collections.sort(countries1, new LastCharComparator());
         System.out.println(countries1);
     }
