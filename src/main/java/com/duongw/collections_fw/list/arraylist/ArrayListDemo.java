@@ -1,9 +1,6 @@
-package com.duongw.collections_fw.list;
+package com.duongw.collections_fw.list.arraylist;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 public class ArrayListDemo {
 
@@ -43,6 +40,22 @@ public class ArrayListDemo {
         System.out.println(myFriendsName);
 
         myFriendsName.remove(3);
+        myFriendsName.size(); // kiem tra so phan tu
+        myFriendsName.set(3, "Test");// change value element
+        System.out.println(myFriendsName);
+
+        boolean found = myFriendsName.contains("Duong");// check have element
+        System.out.println(found);
+
+        boolean empty = myFriendsName.isEmpty(); // check empty
+        System.out.println(empty);
+
+        List<String> subList = myFriendsName.subList(0, 2); // take sub list from index 0 to index 2 but not include 2
+        System.out.println(subList);
+
+        myFriendsName.get(1);// get element by index
+
+
 
 
         listInteger.add(1);
@@ -63,7 +76,7 @@ public class ArrayListDemo {
         System.out.println(doubleNums);
 
 
-        // Using loop in arraylist
+        /* Using loop in arraylist*/
 
         //using for each
         for (String name : myFriendsName) {
@@ -94,5 +107,58 @@ public class ArrayListDemo {
             System.out.println(name);
         }
 
+
+        // arraylist vs array
+        ArrayList<String> countryNames = new ArrayList<>();
+        countryNames.add("India");
+        countryNames.add("Canada");
+        countryNames.add("USA");
+        countryNames.add("Germany");
+        countryNames.add("India");
+
+
+        String[] countries = countryNames.toArray(new String[countryNames.size()]);
+        System.out.println(Arrays.toString(countries));
+
+        List<String> newList = Arrays.asList(countries);
+        System.out.println(newList);
+
+
+
+        // using diamond operator
+
+        ArrayList<Integer> nums = new ArrayList<>();
+        List<Character> characters = new ArrayList<>();
+        var doubleNums_ = new ArrayList<Double>();
+        List<String> countryNames_ = new ArrayList<>();
+
+        // immutable list vs mutable list
+
+        List<Integer> accountNums = new ArrayList<>();
+        accountNums.add(325454);
+        accountNums.add(325455);
+        accountNums.add(325456);
+
+
+        accountNums = Collections.unmodifiableList(accountNums);
+        List<Integer> immutableAccountNums = List.of(325454, 325455, 325456);
+        var arrayListObject = new ArrayList<Integer>(immutableAccountNums);
+        addTenDollars(arrayListObject);
+
+
     }
+
+    private static List<Integer> addTenDollars(List<Integer> accountNums) {
+        accountNums.add(545643);
+        for(Integer account: accountNums) {
+            System.out.println("Ten Dollars credited into the account : "+account);
+        }
+        return accountNums;
+    }
+
+
+
 }
+
+
+

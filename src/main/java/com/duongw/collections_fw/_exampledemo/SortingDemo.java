@@ -1,6 +1,6 @@
 package com.duongw.collections_fw._exampledemo;
 
-import com.duongw.collections_fw._exampledemo.sort.LastCharComparator;
+import com.duongw.collections_fw.sort.LastCharComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

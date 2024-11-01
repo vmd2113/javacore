@@ -1,4 +1,4 @@
-package com.duongw.collections_fw._exampledemo.sort;
+package com.duongw.collections_fw.sort;
 
 import java.util.ArrayList;
 import java.util.Collections;

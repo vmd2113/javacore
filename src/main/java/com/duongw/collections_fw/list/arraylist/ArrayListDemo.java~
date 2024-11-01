@@ -1,21 +1,21 @@
-package com.duongw.collections_fw._exampledemo;
+package com.duongw.collections_fw.list.arraylist;
 
 import java.util.*;
 
-/**
- * Demo of the ArrayList class.
- *
- * This program demonstrates how to use an ArrayList to store a collection of objects.
- * It also shows how to use the for-each loop and the iterator to traverse the elements of the ArrayList.
- *
- */
-public class ArraylistDemo {
+public class ArrayListDemo {
 
-
+    /**
+     * ArrayList is a part of the Java Collection Framework and is a dynamic array that can resize itself when elements are added or removed. It is similar to arrays, but with the ability to dynamically resize itself. ArrayList is implemented in the java.util package.
+     * <p>
+     * Features
+     * Dynamic Sizing: ArrayList can dynamically resize itself to accommodate more elements.
+     * Random Access: Elements can be accessed using their index, allowing for fast random access.
+     * Generic: ArrayList is a generic class, allowing it to store elements of any data type.
+     * Iterable: Implements the Iterable interface, allowing for easy iteration over its elements.
+     * Automatic Boxing and Unboxing: ArrayList automatically handles the conversion between primitive types and their corresponding wrapper classes.
+     */
 
     public static void main(String[] args) {
-
-
         ArrayList<Integer> listInteger = new ArrayList<>(); // <Integer>
 
         List<Character> listCharacter = new ArrayList<>(); // <Character>
@@ -158,4 +158,6 @@ public class ArraylistDemo {
 
 
 }
+
+
 
