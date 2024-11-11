@@ -1,0 +1,8 @@
+
+m
+java:S1192
+"PDefine a constant instead of duplicating this literal "No lucky number" 7 times.(¬Î´Ý8–Í¥â°2
+L	java:S106""+Replace this use of System.out by a logger.(ã¿¢Ôùÿÿÿÿ8µÍ¥â°2
+G	java:S106$"+Replace this use of System.out by a logger.(Š”Îê8µÍ¥â°2
+L	java:S106,"+Replace this use of System.out by a logger.(¬õÌÿøÿÿÿÿ8»Í¥â°2
+L	java:S106."+Replace this use of System.out by a logger.(†Ò·–þÿÿÿÿ8»Í¥â°2

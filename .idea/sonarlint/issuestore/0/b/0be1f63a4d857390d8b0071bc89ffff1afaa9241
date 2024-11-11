@@ -1,0 +1,10 @@
+
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(“»φ8πιª®2
+‘
+java:S1319"oThe type of "personArrayList" should be an interface such as "List" rather than the implementation "ArrayList".(Ά—όϊÿÿÿÿ8ριª®2
+’
+java:S1319="pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(–λέΰÿÿÿÿÿ8σιª®2
+
+java:S1319G"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ƒΪσ8υιª®2
+G	java:S106s"+Replace this use of System.out by a logger.(•ι‹8ίϋ«®2

@@ -1,0 +1,17 @@
+
+b	java:S112p"FDefine and throw a dedicated exception instead of using a generic one.(ö‘ãŸ8ë×Âµ®2
+b	java:S112x"FDefine and throw a dedicated exception instead of using a generic one.(Ûâ”À8ì×Âµ®2
+c	java:S112€"FDefine and throw a dedicated exception instead of using a generic one.(ö‘ãŸ8í×Âµ®2
+l
+java:S1192$"ODefine a constant instead of duplicating this literal "List is empty." 6 times.(Á·8ø×Âµ®2
+z
+java:S1192"XDefine a constant instead of duplicating this literal "Index is out of bounds." 4 times.(ä£¸Üúÿÿÿÿ8ü×Âµ®2
+L	java:S106"+Replace this use of System.out by a logger.(ä£¸Üúÿÿÿÿ8ØÂµ®2
+G	java:S106$"+Replace this use of System.out by a logger.(Á·8ØÂµ®2
+G	java:S106-"+Replace this use of System.out by a logger.(Á·8ØÂµ®2
+L	java:S1066"+Replace this use of System.out by a logger.(ä£¸Üúÿÿÿÿ8ŸØÂµ®2
+G	java:S106?"+Replace this use of System.out by a logger.(Á·8 ØÂµ®2
+G	java:S106H"+Replace this use of System.out by a logger.(Á·8¡ØÂµ®2
+L	java:S106Q"+Replace this use of System.out by a logger.(ä£¸Üúÿÿÿÿ8¢ØÂµ®2
+L	java:S106Z"+Replace this use of System.out by a logger.(Öš®Ğÿÿÿÿÿ8¤ØÂµ®2
+L	java:S106\"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¤ØÂµ®2

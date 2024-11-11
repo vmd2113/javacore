@@ -1,0 +1,19 @@
+
+‚
+java:S1149
+"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¸›¸›8–÷œ¶®2
+L	java:S106"+Replace this use of System.out by a logger.(ù¬úúÿÿÿÿ8š÷œ¶®2
+L	java:S106"+Replace this use of System.out by a logger.(ªê¨øÿÿÿÿ8›÷œ¶®2
+L	java:S106"+Replace this use of System.out by a logger.(ë±Àùÿÿÿÿ8›÷œ¶®2
+G	java:S106"+Replace this use of System.out by a logger.(Îı”Õ8œ÷œ¶®2
+L	java:S106""+Replace this use of System.out by a logger.(İ™“½ÿÿÿÿÿ8œ÷œ¶®2
+L	java:S106#"+Replace this use of System.out by a logger.(˜…˜Íüÿÿÿÿ8÷œ¶®2
+L	java:S106("+Replace this use of System.out by a logger.(À€¦«øÿÿÿÿ8÷œ¶®2
+L	java:S106)"+Replace this use of System.out by a logger.(»í§Èùÿÿÿÿ8÷œ¶®2
+G	java:S106,"+Replace this use of System.out by a logger.(¬»£…8÷œ¶®2
+L	java:S106-"+Replace this use of System.out by a logger.(Ô°İåıÿÿÿÿ8÷œ¶®2
+L	java:S1060"+Replace this use of System.out by a logger.(ÄÑ„®ùÿÿÿÿ8Ÿ÷œ¶®2
+L	java:S1062"+Replace this use of System.out by a logger.(À»Ø‡úÿÿÿÿ8Ÿ÷œ¶®2
+L	java:S1065"+Replace this use of System.out by a logger.(Ó†çŸúÿÿÿÿ8Œì¡¶®2
+F	java:S1068"+Replace this use of System.out by a logger.(ç‰
+8ì¡¶®2

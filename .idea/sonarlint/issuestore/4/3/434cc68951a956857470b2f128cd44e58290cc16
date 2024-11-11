@@ -1,0 +1,47 @@
+
+c
+java:S1192"FDefine a constant instead of duplicating this literal "Duong" 3 times.(ÕîµÇ8ÕÀŒ§®2
+n	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á º”8º‹§®2
+s	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÃĞüşÿÿÿÿ8’º‹§®2
+^
+java:S1854"ARemove this useless assignment to local variable "listCharacter".(‡ËƒÜ8Öº‹§®2
+b
+java:S1854"?Remove this useless assignment to local variable "accountNums".(ç˜õÂÿÿÿÿÿ8Øº‹§®2
+d
+java:S1854…"ARemove this useless assignment to local variable "countryNames_".(ÔÃĞüşÿÿÿÿ8Øº‹§®2
+]
+java:S1854„"?Remove this useless assignment to local variable "doubleNums_".(Á º”8Øº‹§®2
+\
+java:S1854ƒ">Remove this useless assignment to local variable "characters".(ŠØÇê8Øº‹§®2
+V
+java:S1854‚"8Remove this useless assignment to local variable "nums".(…ÿ8Øº‹§®2
+O
+java:S1481"2Remove this unused "listCharacter" local variable.(‡ËƒÜ8Úº‹§®2
+L	java:S106""+Replace this use of System.out by a logger.(ş¿„ùÿÿÿÿ8Üº‹§®2
+G	java:S106%"+Replace this use of System.out by a logger.(éÆª¶8Üº‹§®2
+L	java:S106("+Replace this use of System.out by a logger.(ş¿„ùÿÿÿÿ8Üº‹§®2
+J
+java:S2201+"(The return value of "size" must be used.(Ô²äøÿÿÿÿ8İº‹§®2
+L	java:S106-"+Replace this use of System.out by a logger.(ş¿„ùÿÿÿÿ8Şº‹§®2
+F	java:S1060"+Replace this use of System.out by a logger.(°ıñT8Şº‹§®2
+L	java:S1063"+Replace this use of System.out by a logger.(á‹¶ùÿÿÿÿ8ßº‹§®2
+G	java:S1066"+Replace this use of System.out by a logger.(ÿ’’ª8ßº‹§®2
+G	java:S106B"+Replace this use of System.out by a logger.(ù™Ìê8àº‹§®2
+G	java:S106E"+Replace this use of System.out by a logger.(ù™Ìê8àº‹§®2
+G	java:S106L"+Replace this use of System.out by a logger.(Ñ»Ãõ8áº‹§®2
+G	java:S106S"+Replace this use of System.out by a logger.(«‹Îõ8áº‹§®2
+G	java:S106X"+Replace this use of System.out by a logger.(ÓîÛ÷8ãº‹§®2
+G	java:S106_"+Replace this use of System.out by a logger.(«‹Îõ8ãº‹§®2
+G	java:S106f"+Replace this use of System.out by a logger.(«‹Îõ8æº‹§®2
+G	java:S106k"+Replace this use of System.out by a logger.(«‹Îõ8‡à‹§®2
+L	java:S106y"+Replace this use of System.out by a logger.(œˆò‰şÿÿÿÿ8ã §®2
+G	java:S106|"+Replace this use of System.out by a logger.(€†­ğ8ÇÄ§®2
+G
+java:S1481‚")Remove this unused "nums" local variable.(…ÿ8ãº‹§®2
+M
+java:S1481ƒ"/Remove this unused "characters" local variable.(ŠØÇê8äº‹§®2
+N
+java:S1481„"0Remove this unused "doubleNums_" local variable.(Á º”8äº‹§®2
+U
+java:S1481…"2Remove this unused "countryNames_" local variable.(ÔÃĞüşÿÿÿÿ8äº‹§®2
+M	java:S106š"+Replace this use of System.out by a logger.(˜³îùÿÿÿÿ8›Œ“§®2
