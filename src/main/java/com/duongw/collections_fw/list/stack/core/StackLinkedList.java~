@@ -1,0 +1,31 @@
+package com.duongw.collections_fw.list.stack.core;
+
+public class StackLinkedList {
+    private StackNode top;
+    public StackLinkedList(){
+        this.top = null;
+
+    }
+
+    public void push(int data){
+        StackNode newNode = new StackNode(data);
+        newNode.next = top;
+        top = newNode;
+    }
+
+    public void pop(){
+       if(isEmpty()){   
+    }
+
+    public void peek(){
+
+    }
+
+    boolean isEmpty(){
+        return top == null;
+    }
+
+    boolean isFull(){
+        return false;
+    }
+}

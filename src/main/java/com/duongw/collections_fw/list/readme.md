@@ -1,4 +1,42 @@
-# LIST
+# ITERATOR
+
+Trong Java, Iterator là một đối tượng cho phép duyệt qua các phần tử của một Collection (chẳng hạn như List, Set, Queue,
+v.v.) một cách tuần tự. Iterator là một phần của Java Collections Framework và được định nghĩa trong giao diện
+java.util.Iterator. Nó cung cấp các phương thức tiêu chuẩn để truy cập và xóa các phần tử trong một collection, giúp bạn
+làm việc với dữ liệu mà không cần quan tâm đến cách lưu trữ dữ liệu đó.
+
+Mục đích:
+
+- cho phép duyệt qua các phần tử trong một collection mà không cần quan tâm đến cấu trúc dữ liệu của collection đó
+- thực hiện duyệt tuần tự (cơ chế an toàn), như cả linked List, hay tree..
+
+Các phương thức chính:
+
+- hasNext(): trả về true, nếu phần tử tiếp theo trong collection để duyệt, false nếu đã hết
+- next(): trả về phần tử tiếp theo trong collection
+- remove(): xoa phần tử tiếp theo trong collection
+
+```java
+public class TestIterator {
+    public static void main(String[] args) {
+
+        List<String> list = new ArrayList<>();
+        list.add("Apple");
+        list.add("Banana");
+        list.add("Orange");
+
+        Iterator<String> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            String element = iterator.next();
+            System.out.println(element);
+        }
+
+    }
+}
+
+```
+
+## LIST
 
 List là một trong những interface chính trong Java Collection Framework, cung cấp một cấu trúc dữ liệu có thứ tự, cho
 phép các phần tử trùng lặp. Nó là một interface con của Collection và có các class phổ biến như ArrayList, LinkedList,
@@ -55,8 +93,8 @@ các phần tử có thể thay đổi kích thước, duy trì thứ tự chèn
 ### LINKEDLIST
 
 là một class triển khai List `interface` và sử dụng cấu trúc dữ liệu liên kết. Trong cấu trúc liên kết này, mỗi phần
-tử (
-node) chứa giá trị của chính nó và một tham chiếu đến phần tử kế tiếp trong danh sách. `LinkedList` hỗ trợ các thao tác
+tử (node) chứa giá trị của chính nó và một tham chiếu đến phần tử kế tiếp trong danh sách. `LinkedList` hỗ trợ các thao
+tác
 nhanh ở đầu và cuối danh sách, nhưng truy cập phần tử theo chỉ mục sẽ chậm hơn so với `ArrayList`.
 
 
@@ -133,13 +171,34 @@ trúc dữ liệu giống với ArrayList, nhưng có một vài điểm khác b
 6) Hỗ trợ Enumeration và Iterator:
 
 - Vector hỗ trợ cả Enumeration và Iterator để duyệt qua các phần tử. Enumeration là một giao diện cũ, còn Iterator là
-  giao
-  diện mới và linh hoạt hơn.
+  giao diện mới và linh hoạt hơn.
 
 7) Không khuyến nghị cho các ứng dụng mới:
 
 - Mặc dù Vector vẫn có trong Java, nhưng thường không được khuyến nghị sử dụng trong các ứng dụng hiện đại do hiệu năng
   thấp hơn ArrayList khi không cần đồng bộ hóa. ArrayList được sử dụng phổ biến hơn và linh hoạt hơn.
-  Ví dụ sử dụng Vector:
 
 ### STACK
+
+Stack là một cấu trúc dữ liệu dạng LIFO (Last In First Out) - phần tử được thêm vào sau cùng sẽ là phần tử lấy ra đầu
+tiên. Stack được ví như chồng đĩa (bát) bạn muốn lấy cái bát/đĩa cuối hay vị trí nào thì phải thao tác từ trên xuống
+dưới, cũng như cái bats/ đĩa cuối cùng luôn được xếp lên đầu
+
+<h3> Đặc  điểm của stack </h3>
+
+1) LIFO: đây là nguyên tắc cơ bản của stack, phần tử nào thêm vào sau cùng được lấy ra đầu tiên
+
+2) Ứng dung: có thể xử lí các vấn đề đệ quy, kiểm tra logic toán tử (ngoặc) thực hiện thao tacs undo (trong văn bản
+   hoặc ...) duyệt cây nhị phân/ đồ thị
+
+<h3> Ví dụ cách hoạt động của stack </h3>
+
+Ví Dụ về Cách Hoạt Động của Stack
+Giả sử chúng ta có một stack rỗng, chúng ta sẽ thực hiện một số thao tác sau:
+
+push(1) → Stack: [1]
+push(2) → Stack: [1, 2]
+push(3) → Stack: [1, 2, 3]
+pop() → Stack: [1, 2] (Lấy ra phần tử 3)
+peek() → Trả về 2 nhưng không xóa phần tử nào khỏi stack.
+

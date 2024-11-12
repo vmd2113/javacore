@@ -1,0 +1,36 @@
+package com.duongw.collections_fw.list.stack.core;
+
+public class MainStack {
+
+    public static void main(String[] args) {
+
+        // using stack array
+        StackArray stack = new StackArray(5);
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        System.out.println(stack.search(2));
+        System.out.println(stack.size());
+        System.out.println(stack.pop());
+        System.out.println(stack.peek());
+        System.out.println(stack.isEmpty());
+        System.out.println(stack.isFull());
+
+
+        // using stack linked list
+        StackLinkedList stack2 = new StackLinkedList();
+        stack2.push(1);
+        stack2.push(2);
+        stack2.push(3);
+        stack2.push(4);
+        System.out.println(stack2.search(2));
+        System.out.println(stack2.size());
+        System.out.println(stack2.pop());
+        System.out.println(stack2.peek());
+        System.out.println(stack2.isEmpty());
+        System.out.println(stack2.isFull());
+
+
+    }
+}

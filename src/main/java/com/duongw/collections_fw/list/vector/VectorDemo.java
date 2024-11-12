@@ -1,5 +1,6 @@
 package com.duongw.collections_fw.list.vector;
 
+import java.util.Arrays;
 import java.util.Vector;
 
 public class VectorDemo {
@@ -9,6 +10,8 @@ public class VectorDemo {
 
         Vector<Integer> vector = new Vector<>(5, 2); // dung lượng ban đầu là 5, tăng thêm 2 khi đầy
 
+//        Vector<String> vector = new Vector<>();
+//        Vector<String> vectorWithCapacity = new Vector<>(20);
         // 1. Thêm phần tử vào Vector
         vector.add(10);
         vector.add(20);
@@ -17,6 +20,7 @@ public class VectorDemo {
         vector.add(50);
 
         vector.add (3, 35); // thêm phần tử tại vị trí 3
+        vector.addAll(Arrays.asList(60, 70, 80)); // thêm phần từ mảng
         System.out.println("Vector sau khi thêm phần tử: " + vector);
 
         // 2. Truy cập phần tử tại một vị trí cụ thể
@@ -24,6 +28,7 @@ public class VectorDemo {
 
         // 3. Thay thế phần tử tại vị trí 1
         vector.set(1, 25);
+
         System.out.println("Vector sau khi thay thế phần tử tại vị trí 1: " + vector);
 
         // 4. Xóa phần tử tại vị trí 3
