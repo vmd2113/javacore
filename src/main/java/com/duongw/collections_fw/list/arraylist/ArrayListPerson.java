@@ -1,6 +1,6 @@
 package com.duongw.collections_fw.list.arraylist;
 
-import com.duongw.collections_fw.list.Person;
+import com.duongw.collections_fw.Person;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,0 +1,17 @@
+
+\
+java:S1192"GDefine a constant instead of duplicating this literal "Ha Noi" 6 times.(ΑY
+@	java:S106"+Replace this use of System.out by a logger.(•ι‹
+@	java:S106 "+Replace this use of System.out by a logger.(•ι‹
+E	java:S106'"+Replace this use of System.out by a logger.(΅Ή—Òψÿÿÿÿ
+[
+java:S1612)"@Replace this lambda with method reference 'System.out::println'.(ιέσ‡ωÿÿÿÿ
+E	java:S106)"+Replace this use of System.out by a logger.(ιέσ‡ωÿÿÿÿ
+@	java:S1067"+Replace this use of System.out by a logger.(«ςμ
+E	java:S106?"+Replace this use of System.out by a logger.(”ιΰώÿÿÿÿ
+E	java:S106B"+Replace this use of System.out by a logger.(—ηΨ«ύÿÿÿÿ
+E	java:S106E"+Replace this use of System.out by a logger.(ίζ“†ψÿÿÿÿ
+E	java:S106I"+Replace this use of System.out by a logger.(Γ‡¨ϋÿÿÿÿÿ
+E	java:S106L"+Replace this use of System.out by a logger.(ΩΌ»όÿÿÿÿ
+@	java:S106_"+Replace this use of System.out by a logger.(’ψ–Ζ
+@	java:S106c"+Replace this use of System.out by a logger.(Χµ

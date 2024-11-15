@@ -89,8 +89,6 @@ f
 6src/main/java/com/duongw/collections_fw/list/readme.md,8\8\889ca51bc985cc7d39df6b95268250effdbcf87a
 s
 Csrc/main/java/com/duongw/collections_fw/list/vector/VectorDemo.java,b\b\bbaec6fa1f1531788292b642da92d27b62466aae
-h
-8src/main/java/com/duongw/collections_fw/list/Person.java,4\9\49bff64edc0370900a7ef4ac82124fd732197565
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 e
@@ -101,3 +99,15 @@ Y
 )src/main/java/com/duongw/generic/Box.java,0\d\0dd91cbe7128f472165859751b5ea4a45411fcf6
 Z
 *src/main/java/com/duongw/generic/Main.java,2\2\2258cb84d94ad3703c78d7b2f9e1ad150efbd43c
+v
+Fsrc/main/java/com/duongw/collections_fw/list/stack/core/MainStack.java,c\3\c3e2cc05e80d388ef5011cd4be2b651d86f6fe63
+t
+Dsrc/main/java/com/duongw/collections_fw/set/hashset/HashSetDemo.java,1\2\124008ebf3a37fa4dec268783d01437a3e6d58a3
+€
+Psrc/main/java/com/duongw/collections_fw/set/linkedhashset/LinkedHashSetDemo.java,6\c\6c60464fe993d14c3b06ce9cd741c45e5bf51906
+t
+Dsrc/main/java/com/duongw/collections_fw/set/treeset/TreeSetDemo.java,b\c\bc085760c7ae7138464bebacdb553ad21e781c11
+c
+3src/main/java/com/duongw/collections_fw/Person.java,3\b\3b90a7be0623800399dec3f0644a1982f24705e5
+e
+5src/main/java/com/duongw/collections_fw/set/readme.md,2\1\21d7fd75a63c2eb15cc77022eaedcdd4c83db1ae

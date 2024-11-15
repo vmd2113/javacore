@@ -1,4 +1,4 @@
-package com.duongw.collections_fw.list;
+package com.duongw.collections_fw;
 
 
 

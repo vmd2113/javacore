@@ -1,6 +1,6 @@
 package com.duongw.collections_fw.list.arraylist.sort;
 
-import com.duongw.collections_fw.Person;
+import com.duongw.collections_fw.list.Person;
 
 import java.util.Comparator;
 
