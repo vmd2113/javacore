@@ -111,3 +111,7 @@ t
 Dsrc/main/java/com/duongw/collections_fw/set/treeset/TreeSetDemo.java,b\c\bc085760c7ae7138464bebacdb553ad21e781c11
 e
 5src/main/java/com/duongw/collections_fw/set/readme.md,2\1\21d7fd75a63c2eb15cc77022eaedcdd4c83db1ae
+e
+5src/main/java/com/duongw/collections_fw/map/readme.md,9\d\9d8937154cded6fe0d1829dceefcc1bf41900896
+t
+Dsrc/main/java/com/duongw/collections_fw/map/hashmap/HashMapDemo.java,2\a\2a6a96148df8d9cfa3281e4ce8da0bad2bb4a168
