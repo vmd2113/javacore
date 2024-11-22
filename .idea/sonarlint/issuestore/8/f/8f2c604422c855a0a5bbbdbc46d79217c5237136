@@ -1,0 +1,28 @@
+
+?
+java:S2140")Use "java.util.Random.nextInt()" instead.(õ‡îŒ
+P
+java:S1854I":Remove this useless assignment to local variable "array3".(Æ‡À’
+O
+java:S1854:"9Remove this useless assignment to local variable "copy2".(Á„
+E	java:S106"+Replace this use of System.out by a logger.(ƒìîüıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ƒìîüıÿÿÿÿ
+E	java:S106 "+Replace this use of System.out by a logger.(«ûú‰øÿÿÿÿ
+?	java:S106#"+Replace this use of System.out by a logger.(€ÜØ%
+E	java:S106'"+Replace this use of System.out by a logger.(Ê¤Ö´üÿÿÿÿ
+E	java:S106-"+Replace this use of System.out by a logger.(ƒìîüıÿÿÿÿ
+@	java:S1061"+Replace this use of System.out by a logger.(ˆ–€ó
+E	java:S1068"+Replace this use of System.out by a logger.(éåËøÿÿÿÿ
+@
+java:S1481:"*Remove this unused "copy2" local variable.(Á„
+E
+java:S1197="*Move the array designators [] to the type.(µî’úÿÿÿÿ
+E	java:S106?"+Replace this use of System.out by a logger.(ƒİşšùÿÿÿÿ
+E	java:S106E"+Replace this use of System.out by a logger.(ã¿¢Ôùÿÿÿÿ
+A
+java:S1481I"+Remove this unused "array3" local variable.(Æ‡À’
+E	java:S106T"+Replace this use of System.out by a logger.(ÿÅó½ùÿÿÿÿ
+E	java:S106["+Replace this use of System.out by a logger.(è¨İ¤üÿÿÿÿ
+@	java:S106_"+Replace this use of System.out by a logger.(”²„Ä
+@	java:S106g"+Replace this use of System.out by a logger.(Ê±™
+@	java:S106k"+Replace this use of System.out by a logger.(œ«ø
